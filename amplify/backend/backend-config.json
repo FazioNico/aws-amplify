@@ -1,1 +1,9 @@
-{}
+{
+  "video": {
+    "mylivestream": {
+      "service": "video",
+      "serviceType": "livestream",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}
