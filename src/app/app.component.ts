@@ -1,11 +1,12 @@
-import { Component, ElementRef, ViewChild, AfterViewInit } from '@angular/core';
+import { Component, ElementRef, ViewChild, AfterViewInit, ViewEncapsulation } from '@angular/core';
 import videojs from 'video.js';
 import awsvideoconfig from '../aws-video-exports';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
+  encapsulation: ViewEncapsulation.None
 })
 export class AppComponent implements AfterViewInit {
   title = 'NgAmplified';
